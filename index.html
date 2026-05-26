@@ -350,9 +350,9 @@
   <a href="#" class="nav-logo">Andre Felipe</a>
 
   <ul class="nav-links">
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#projects" id="nav-projects">Projects</a></li>
+    <li><a href="#about" id="nav-about">About</a></li>
+    <li><a href="#contact" id="nav-contact">Contact</a></li>
   </ul>
 
   <div class="lang-switcher">
@@ -376,15 +376,15 @@
       Built inside one of Brazil's most demanding institutions — now available for international freelance and remote full-time opportunities.
     </p>
     <div class="hero-tags">
-      <span class="tag">Power BI</span>
-      <span class="tag">DAX</span>
-      <span class="tag">Excel</span>
-      <span class="tag">VBA Automation</span>
-      <span class="tag">Data Cleaning</span>
-      <span class="tag">HR Analytics</span>
+      <span class="tag" id="tag-powerbi">Power BI</span>
+      <span class="tag" id="tag-dax">DAX</span>
+      <span class="tag" id="tag-excel">Excel</span>
+      <span class="tag" id="tag-vba">VBA Automation</span>
+      <span class="tag" id="tag-cleaning">Data Cleaning</span>
+      <span class="tag" id="tag-hr">HR Analytics</span>
     </div>
     <div class="hero-cta">
-      <a href="https://www.upwork.com/freelancers/~012f17d5b7f6158603?mp_source=share" target="_blank" class="btn btn-primary">Hire on Upwork →</a>
+      <a href="https://www.upwork.com/freelancers/~012f17d5b7f6158603?mp_source=share" target="_blank" class="btn btn-primary" id="btn-upwork">Hire on Upwork →</a>
       <a href="https://www.linkedin.com/in/andre-valenga-5a53ab154" target="_blank" class="btn btn-outline">LinkedIn</a>
     </div>
   </div>
@@ -395,19 +395,19 @@
     <div class="hero-stats">
       <div class="stat">
         <span class="stat-num">5+</span>
-        <span class="stat-label">Years Experience</span>
+        <span class="stat-label" id="stat-exp">Years Experience</span>>
       </div>
       <div class="stat">
         <span class="stat-num">4</span>
-        <span class="stat-label">Projects</span>
+        <span class="stat-label" id="stat-projects">Projects</span>
       </div>
       <div class="stat">
         <span class="stat-num">3</span>
-        <span class="stat-label">Languages</span>
+        <span class="stat-label" id="stat-languages">Languages</span>
       </div>
       <div class="stat">
         <span class="stat-num">B2</span>
-        <span class="stat-label">English Level</span>
+        <span class="stat-label" id="stat-english">English Level</span>
       </div>
     </div>
   </div>
@@ -562,7 +562,21 @@ const translations = {
     bio: `
       5+ years turning complex, messy datasets into clean evidence for decision-making.
       Built inside one of Brazil's most demanding institutions — now available for international freelance and remote full-time opportunities.
-    `
+    `,
+    projects: 'Projects',
+    about: 'About',
+    contact: 'Contact',
+    statExp: 'Years Experience',
+    statProjects: 'Projects',
+    statLanguages: 'Languages',
+    statEnglish: 'English Level',
+    tagPowerBI: 'Power BI',
+    tagDAX: 'DAX',
+    tagExcel: 'Excel',
+    tagVBA: 'VBA Automation',
+    tagCleaning: 'Data Cleaning',
+    tagHR: 'HR Analytics',
+    btnUpwork: 'View Upwork Profile →'
   },
 
   pt: {
@@ -570,7 +584,21 @@ const translations = {
     bio: `
       Mais de 5 anos transformando dados complexos e desorganizados em informação útil para tomada de decisão.
       Experiência construída em uma das instituições mais exigentes do Brasil — agora disponível para projetos freelance e oportunidades remotas internacionais.
-    `
+    `,
+    projects: 'Projetos',
+    about: 'Sobre',
+    contact: 'Contato',
+    statExp: 'Anos de Experiência',
+    statProjects: 'Projetos',
+    statLanguages: 'Idiomas',
+    statEnglish: 'Nível de Inglês',
+    tagPowerBI: 'Power BI',
+    tagDAX: 'DAX',
+    tagExcel: 'Excel',
+    tagVBA: 'Automação VBA',
+    tagCleaning: 'Limpeza de Dados',
+    tagHR: 'Análise de RH',
+    btnUpwork: 'Trabalhe Comigo →'
   },
 
   es: {
@@ -578,13 +606,72 @@ const translations = {
     bio: `
       Más de 5 años transformando conjuntos de datos complejos y desordenados en información clara para la toma de decisiones.
       Experiencia desarrollada en una de las instituciones más exigentes de Brasil — actualmente disponible para proyectos freelance y oportunidades remotas internacionales.
-    `
+    `,
+    projects: 'Proyectos',
+    about: 'Acerca',
+    contact: 'Contacto',
+    statExp: 'Años de Experiencia',
+    statProjects: 'Proyectos',
+    statLanguages: 'Idiomas',
+    statEnglish: 'Nivel de Inglés',
+    tagPowerBI: 'Power BI',
+    tagDAX: 'DAX',
+    tagExcel: 'Excel',
+    tagVBA: 'Automatización VBA',
+    tagCleaning: 'Limpieza de Datos',
+    tagHR: 'Analítica de RRHH',
+    btnUpwork: 'Ver Perfil en Upwork →'
   }
 };
 
 function setLanguage(lang) {
-  document.getElementById('hero-eyebrow').innerText = translations[lang].eyebrow;
-  document.getElementById('hero-bio').innerText = translations[lang].bio;
+  document.getElementById('hero-eyebrow').innerText =
+    translations[lang].eyebrow;
+
+  document.getElementById('hero-bio').innerText =
+    translations[lang].bio;
+
+  document.getElementById('nav-projects').innerText =
+    translations[lang].projects;
+
+  document.getElementById('nav-about').innerText =
+    translations[lang].about;
+
+  document.getElementById('nav-contact').innerText =
+    translations[lang].contact;
+  
+  document.getElementById('stat-exp').innerText =
+  translations[lang].statExp;
+
+  document.getElementById('stat-projects').innerText =
+    translations[lang].statProjects;
+  
+  document.getElementById('stat-languages').innerText =
+    translations[lang].statLanguages;
+  
+  document.getElementById('stat-english').innerText =
+    translations[lang].statEnglish;
+  
+  document.getElementById('tag-powerbi').innerText =
+  translations[lang].tagPowerBI;
+
+document.getElementById('tag-dax').innerText =
+  translations[lang].tagDAX;
+
+document.getElementById('tag-excel').innerText =
+  translations[lang].tagExcel;
+
+document.getElementById('tag-vba').innerText =
+  translations[lang].tagVBA;
+
+document.getElementById('tag-cleaning').innerText =
+  translations[lang].tagCleaning;
+
+document.getElementById('tag-hr').innerText =
+  translations[lang].tagHR;
+  
+document.getElementById('btn-upwork').innerText =
+  translations[lang].btnUpwork;
 }
 </script>
 </body>
