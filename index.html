@@ -123,8 +123,12 @@
     background: radial-gradient(ellipse at 70% 30%, rgba(200,67,42,0.15) 0%, transparent 60%);
   }
   .hero-photo-wrap {
-    position: relative; z-index: 1;
-    width: 280px; height: 340px;
+    position: relative;
+    z-index: 1;
+    width: 320px;
+    height: 420px;
+    overflow: hidden;
+    border-radius: 2px;
   }
   .hero-photo-wrap::before {
     content: '';
@@ -133,10 +137,14 @@
     transform: translate(12px, 12px);
   }
   .hero-photo {
-    width: 100%; height: 100%;
-    object-fit: cover; object-position: center top;
-    display: block; position: relative; z-index: 1;
-    filter: grayscale(20%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 15%;
+    display: block;
+    position: relative;
+    z-index: 1;
+    filter: grayscale(10%);
   }
   .hero-stats {
     position: relative; z-index: 1;
