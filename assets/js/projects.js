@@ -281,7 +281,7 @@ const PROJECTS = [
   /* ===== 5. CROP YIELD PREDICTION (ML) =================================== */
   {
     id: "crop-yield",
-    cover: "assets/img/crop-yield/cover.svg",
+    cover: "assets/img/crop-yield/cover.png",
     gallery: ["assets/img/crop-yield/cover.svg"],
     repo: "https://github.com/andrefpvalenga/crop-yield-project",
     tags: ["Python", "scikit-learn", "Machine Learning"],
