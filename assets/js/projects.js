@@ -282,7 +282,7 @@ const PROJECTS = [
   {
     id: "crop-yield",
     cover: "assets/img/crop-yield/cover.png",
-    gallery: ["assets/img/crop-yield/cover.svg"],
+    gallery: ["assets/img/crop-yield/cover.png"],
     repo: "https://github.com/andrefpvalenga/crop-yield-project",
     tags: ["Python", "scikit-learn", "Machine Learning"],
     i18n: {
