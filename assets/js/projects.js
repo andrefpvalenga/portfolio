@@ -31,7 +31,9 @@ const PROJECTS = [
   {
     id: "people-analytics",
     cover: "assets/img/people-analytics/cover.png",
-    gallery: ["assets/img/people-analytics/cover.png"],
+    gallery: ["assets/img/people-analytics/cover.png",
+              "assets/img/people-analytics/cover.png"
+    ],
     repo: "",
     tags: ["Power BI", "People Analytics", "Storytelling"],
     i18n: {
