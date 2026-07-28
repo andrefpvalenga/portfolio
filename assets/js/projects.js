@@ -97,7 +97,11 @@ const PROJECTS = [
   {
     id: "that-coffee",
     cover: "assets/img/that-coffee/cover.png",
-    gallery: ["assets/img/that-coffee/cover.png"],
+    gallery: ["assets/img/that-coffee/cover.png",
+              "assets/img/that-coffee/stock_check.png",
+              "assets/img/that-coffee/stock_lookup.png",
+              "assets/img/that-coffee/summary_table.png"
+    ],
     repo: "",
     tags: ["Advanced Excel", "Excel VBA", "Inventory & Finance"],
     i18n: {
@@ -159,7 +163,10 @@ const PROJECTS = [
   {
     id: "buscante",
     cover: "assets/img/buscante/cover.png",
-    gallery: ["assets/img/buscante/cover.png"],
+    gallery: ["assets/img/buscante/cover.png",
+              "assets/img/buscante/vendas.png",
+              "assets/img/buscante/clientes.png",
+    ],
     repo: "",
     tags: ["Power BI", "Customer Analytics", "Segmentation"],
     i18n: {
