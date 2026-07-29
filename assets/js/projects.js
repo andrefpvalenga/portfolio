@@ -228,7 +228,14 @@ const PROJECTS = [
   {
     id: "sql-cap-cooperativa",
     cover: "assets/img/cap/cover.png",
-    gallery: ["assets/img/cap/cover.png"],
+    gallery: ["assets/img/cap/cover.png",
+              "assets/img/cap/sql.png",
+              "assets/img/cap/slide1.png",
+              "assets/img/cap/slide2.png",
+              "assets/img/cap/slide3.png",
+              "assets/img/cap/slide4.png",
+              "assets/img/cap/slide5.png"
+    ],
     repo: "https://github.com/andrefpvalenga/sql-cap-cooperativa",
     tags: ["SQL", "Power BI", "MySQL", "Agribusiness"],
     i18n: {
