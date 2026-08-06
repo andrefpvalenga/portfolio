@@ -1,0 +1,147 @@
+{
+  "_leiaAntesDeEditar": "Altere somente textos, nomes de imagens e o endereço do projeto. O guia completo está no arquivo LEIA-ME.md da pasta content.",
+  "endereço público": "https://github.com/andrefpvalenga/sql-cap-cooperativa",
+  "imagens": [
+    {
+      "nome do arquivo": "cover.png",
+      "descrição": {
+        "português": "Comparação de culturas por produtividade, resultado financeiro e sacas vendidas.",
+        "inglês": "Crop comparison by yield, financial result and bags sold.",
+        "espanhol": "Comparación de cultivos por productividad, resultado financiero y sacos vendidos."
+      }
+    },
+    {
+      "nome do arquivo": "sql1.png",
+      "descrição": {
+        "português": "CTE em SQL calculando produtividade por produtor e média da mesorregião.",
+        "inglês": "SQL CTE calculating productivity by producer and mesoregion average.",
+        "espanhol": "CTE en SQL calculando productividad por productor y promedio de la mesorregión."
+      }
+    },
+    {
+      "nome do arquivo": "sql2.png",
+      "descrição": {
+        "português": "CTEs em SQL calculando custo por saca e faturamento da safra.",
+        "inglês": "SQL CTEs calculating cost per bag and harvest revenue.",
+        "espanhol": "CTEs en SQL calculando costo por saco e ingresos de la cosecha."
+      }
+    },
+    {
+      "nome do arquivo": "sql3.png",
+      "descrição": {
+        "português": "Cálculo em SQL do resultado por hectare e benchmark regional de custo.",
+        "inglês": "SQL calculation of result per hectare and regional cost benchmark.",
+        "espanhol": "Cálculo en SQL del resultado por hectárea y benchmark regional de costo."
+      }
+    },
+    {
+      "nome do arquivo": "sql4.png",
+      "descrição": {
+        "português": "CTE em SQL calculando o resultado médio por hectare e mesorregião.",
+        "inglês": "SQL CTE calculating average result per hectare by mesoregion.",
+        "espanhol": "CTE en SQL calculando el resultado medio por hectárea y mesorregión."
+      }
+    },
+    {
+      "nome do arquivo": "sql5.png",
+      "descrição": {
+        "português": "Junção SQL final comparando cada produtor aos benchmarks regionais de produtividade, custo e resultado.",
+        "inglês": "Final SQL join comparing each producer with regional productivity, cost and result benchmarks.",
+        "espanhol": "Unión SQL final comparando cada productor con benchmarks regionales de productividad, costo y resultado."
+      }
+    },
+    {
+      "nome do arquivo": "slide1.png",
+      "descrição": {
+        "português": "Ranking de resultado financeiro por produtor com filtros de safra e ano de venda.",
+        "inglês": "Financial result ranking by producer with harvest and sale-year filters.",
+        "espanhol": "Ranking de resultado financiero por productor con filtros de cosecha y año de venta."
+      }
+    },
+    {
+      "nome do arquivo": "slide2.png",
+      "descrição": {
+        "português": "Tendências de volume vendido e preço por saca ao longo de 2023.",
+        "inglês": "2023 sales volume and price-per-bag trends over time.",
+        "espanhol": "Tendencias de volumen vendido y precio por saco a lo largo de 2023."
+      }
+    },
+    {
+      "nome do arquivo": "slide3.png",
+      "descrição": {
+        "português": "Produtividade de cada produtor comparada à média da mesorregião.",
+        "inglês": "Producer productivity compared with the mesoregion average.",
+        "espanhol": "Productividad de cada productor comparada con el promedio de la mesorregión."
+      }
+    },
+    {
+      "nome do arquivo": "slide4.png",
+      "descrição": {
+        "português": "Volume produzido e percentual vendido por produtor.",
+        "inglês": "Production volume and sold percentage for each producer.",
+        "espanhol": "Volumen producido y porcentaje vendido por productor."
+      }
+    },
+    {
+      "nome do arquivo": "slide5.png",
+      "descrição": {
+        "português": "Produtividade por cultura e classificação do solo.",
+        "inglês": "Yield by crop and soil classification.",
+        "espanhol": "Productividad por cultivo y clasificación del suelo."
+      }
+    }
+  ],
+  "textos": {
+    "português": {
+      "título": "Cooperativa de Grãos — Análise em SQL",
+      "resumo": "Projeto SQL completo para uma cooperativa fictícia de grãos no Paraná: limpeza de dados legados, benchmarking de produtividade e segmentação de produtores para visitas técnicas.",
+      "problema": "Quais produtores e regiões estão performando abaixo do esperado — e isso tem alguma relação com o comportamento de vendas deles?",
+      "como foi feito": "Construí quatro tabelas relacionais simulando a exportação de um sistema legado — com inconsistências intencionais nos dados. A partir disso realizei uma análise em quatro fases: limpeza dos dados, benchmarking de produtividade contra as médias por mesorregião, análise de comportamento de comercialização e um score composto para segmentar os produtores em clusters de ação.",
+      "ferramentas": "MySQL · Power BI · CTEs · Window Functions · LEFT JOINs",
+      "resultados": [
+        "Identificou 6 produtores com necessidade de visita técnica imediata com base em um score composto de produtividade, custo por saca e resultado por hectare.",
+        "Não encontrou correlação entre comportamento de venda e baixo desempenho — fatores estruturais (tipo de solo e tamanho da área) foram os determinantes principais.",
+        "Construiu um modelo de benchmarking por mesorregião com CTEs aninhadas, comparando cada produtor à média regional em três métricas."
+      ],
+      "aprendizados": [
+        "Concluir que não há correlação é um achado analítico tão válido quanto encontrar uma.",
+        "Tipo de solo e escala operacional explicaram mais variância do que qualquer decisão comercial.",
+        "Um modelo de score composto torna as recomendações mais acionáveis do que tabelas de métricas brutas."
+      ]
+    },
+    "inglês": {
+      "título": "Grain Cooperative — SQL Analytics",
+      "resumo": "End-to-end SQL project for a fictional grain cooperative in Paraná: cleaning legacy data, benchmarking productivity, and segmenting producers for field visits.",
+      "problema": "Which producers and regions are performing below expectations — and does this have any relationship with their commercial behavior?",
+      "como foi feito": "I built four relational tables simulating a legacy system export — complete with intentional data quality issues. From there I ran a full four-phase analysis: data cleaning, productivity benchmarking against mesoregion averages, commercial behavior analysis, and a composite performance score to segment producers into action clusters.",
+      "ferramentas": "MySQL · Power BI · CTEs · Window Functions · LEFT JOINs",
+      "resultados": [
+        "Identified 6 producers requiring immediate field visits based on a composite score across productivity, cost per bag, and result per hectare.",
+        "Found no correlation between commercial behavior and underperformance — structural factors (soil type and farm size) were the dominant drivers.",
+        "Built a mesoregion benchmarking model using nested CTEs, comparing each producer against their regional average across three metrics."
+      ],
+      "aprendizados": [
+        "Concluding that there is no correlation is as valid an analytical finding as finding one.",
+        "Soil type and operational scale explained more variance than any commercial decision.",
+        "A composite scoring model makes actionable recommendations clearer than raw metric tables."
+      ]
+    },
+    "espanhol": {
+      "título": "Cooperativa de Granos — Análisis en SQL",
+      "resumo": "Proyecto SQL completo para una cooperativa ficticia de granos en Paraná: limpieza de datos heredados, benchmarking de productividad y segmentación de productores para visitas técnicas.",
+      "problema": "¿Qué productores y regiones están rindiendo por debajo de lo esperado — y tiene esto alguna relación con su comportamiento de ventas?",
+      "como foi feito": "Construí cuatro tablas relacionales simulando la exportación de un sistema heredado — con inconsistencias intencionales en los datos. A partir de ahí realicé un análisis en cuatro fases: limpieza de datos, benchmarking de productividad contra los promedios por mesorregión, análisis de comportamiento comercial y un score compuesto para segmentar a los productores en clústeres de acción.",
+      "ferramentas": "MySQL · Power BI · CTEs · Window Functions · LEFT JOINs",
+      "resultados": [
+        "Identificó 6 productores que requieren visita técnica inmediata basándose en un score compuesto de productividad, costo por saco y resultado por hectárea.",
+        "No encontró correlación entre el comportamiento de ventas y el bajo rendimiento — los factores estructurales (tipo de suelo y tamaño del área) fueron los determinantes principales.",
+        "Construyó un modelo de benchmarking por mesorregión con CTEs anidadas, comparando cada productor con el promedio regional en tres métricas."
+      ],
+      "aprendizados": [
+        "Concluir que no hay correlación es un hallazgo analítico tan válido como encontrar una.",
+        "El tipo de suelo y la escala operativa explicaron más varianza que cualquier decisión comercial.",
+        "Un modelo de score compuesto hace que las recomendaciones sean más accionables que las tablas de métricas en bruto."
+      ]
+    }
+  }
+}

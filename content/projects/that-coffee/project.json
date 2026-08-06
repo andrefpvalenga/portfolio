@@ -1,0 +1,91 @@
+{
+  "_leiaAntesDeEditar": "Altere somente textos, nomes de imagens e o endereço do projeto. O guia completo está no arquivo LEIA-ME.md da pasta content.",
+  "endereço público": "",
+  "imagens": [
+    {
+      "nome do arquivo": "cover.png",
+      "descrição": {
+        "português": "Catálogo de produtos com custo unitário, preço de venda e estoque mínimo.",
+        "inglês": "Product catalog with unit cost, selling price and minimum stock thresholds.",
+        "espanhol": "Catálogo de productos con costo unitario, precio de venta y stock mínimo."
+      }
+    },
+    {
+      "nome do arquivo": "stock_check.png",
+      "descrição": {
+        "português": "Tabela de controle de estoque com alertas de reposição, receita, custo e lucro por produto.",
+        "inglês": "Stock control table with reorder alerts, revenue, cost and profit by product.",
+        "espanhol": "Tabla de control de stock con alertas de reposición, ingresos, costo y ganancia por producto."
+      }
+    },
+    {
+      "nome do arquivo": "stock_lookup.png",
+      "descrição": {
+        "português": "Consulta interativa de estoque filtrada para vendas e inventário de café.",
+        "inglês": "Interactive stock lookup filtered for coffee sales and inventory values.",
+        "espanhol": "Consulta interactiva de stock filtrada para ventas e inventario de café."
+      }
+    },
+    {
+      "nome do arquivo": "summary_table.png",
+      "descrição": {
+        "português": "Resumo financeiro anual e por produto com receita, despesas, lucro e margem.",
+        "inglês": "Annual and per-product financial summary with revenue, expenses, profit and margin.",
+        "espanhol": "Resumen financiero anual y por producto con ingresos, gastos, ganancia y margen."
+      }
+    }
+  ],
+  "textos": {
+    "português": {
+      "título": "That Coffee — Controle de Estoque & Financeiro",
+      "resumo": "Um sistema completo em Excel para um negócio de alimentos & bebidas — estoque, precificação e lucro num só lugar.",
+      "problema": "Uma pequena operação de alimentos & bebidas não tinha forma confiável de controlar estoque, saber quais produtos davam lucro ou ser avisada antes de faltar produto. Tudo vivia em planilhas desconectadas e conferências manuais.",
+      "como foi feito": "Construí um sistema ponta a ponta em Excel: um catálogo de produtos com custo, preço e estoque mínimo; cálculos automáticos de saldo e valor de estoque; alertas condicionais para estoque zerado e ponto de reposição; e uma camada de análise de lucro/margem — transformando um monte de planilhas em uma única ferramenta operacional.",
+      "ferramentas": "Excel Avançado · VBA · Lógica condicional · Modelagem financeira",
+      "resultados": [
+        "Identificou os produtos de cerveja como a maior contribuição de lucro ($6.660).",
+        "Automatizou alertas que sinalizam itens sem estoque e no ponto de reposição.",
+        "Acompanhou uma margem de lucro geral de 128,46% no período analisado."
+      ],
+      "aprendizados": [
+        "Algumas regras automáticas substituem horas de conferência manual de estoque.",
+        "A análise de margem mostra que volume e lucro nem sempre contam a mesma história.",
+        "Ferramentas operacionais vencem quando se encaixam em como o negócio já funciona."
+      ]
+    },
+    "inglês": {
+      "título": "That Coffee — Inventory & Financial Control",
+      "resumo": "A complete Excel control system for a food & beverage business — stock, pricing and profit in one place.",
+      "problema": "A small food & beverage operation had no reliable way to track stock, know which products made money, or get warned before running out. Everything lived in disconnected spreadsheets and manual checks.",
+      "como foi feito": "I built an end-to-end Excel system: a product catalog with cost, price and minimum stock; automated stock balance and value calculations; conditional alerts for zero-stock and reorder thresholds; and a profit/margin analysis layer — turning a pile of spreadsheets into a single operational tool.",
+      "ferramentas": "Advanced Excel · VBA · Conditional logic · Financial modeling",
+      "resultados": [
+        "Identified beer products as the highest profit contributor ($6,660).",
+        "Automated alerts that flag zero-stock and reorder-threshold items.",
+        "Tracked an overall profit margin of 128.46% across the analyzed period."
+      ],
+      "aprendizados": [
+        "A few automated rules replace hours of manual stock checking.",
+        "Margin analysis reveals that volume and profit are not the same story.",
+        "Operational tools win when they fit how the business already works."
+      ]
+    },
+    "espanhol": {
+      "título": "That Coffee — Control de Inventario y Finanzas",
+      "resumo": "Un sistema completo en Excel para un negocio de alimentos y bebidas — stock, precios y ganancia en un solo lugar.",
+      "problema": "Una pequeña operación de alimentos y bebidas no tenía forma confiable de controlar el stock, saber qué productos daban ganancia o recibir avisos antes de quedarse sin producto. Todo vivía en hojas de cálculo desconectadas y revisiones manuales.",
+      "como foi feito": "Construí un sistema integral en Excel: un catálogo de productos con costo, precio y stock mínimo; cálculos automáticos de saldo y valor de inventario; alertas condicionales para stock en cero y punto de reposición; y una capa de análisis de ganancia/margen — convirtiendo un montón de hojas en una única herramienta operativa.",
+      "ferramentas": "Excel Avanzado · VBA · Lógica condicional · Modelado financiero",
+      "resultados": [
+        "Identificó los productos de cerveza como la mayor contribución de ganancia ($6.660).",
+        "Automatizó alertas que marcan artículos sin stock y en punto de reposición.",
+        "Siguió un margen de ganancia general del 128,46% durante el período analizado."
+      ],
+      "aprendizados": [
+        "Unas pocas reglas automáticas reemplazan horas de revisión manual de stock.",
+        "El análisis de margen muestra que volumen y ganancia no siempre cuentan la misma historia.",
+        "Las herramientas operativas ganan cuando encajan en cómo ya funciona el negocio."
+      ]
+    }
+  }
+}
