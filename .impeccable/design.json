@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-05T23:40:00-03:00",
+  "title": "Design System: André Valenga — Quiet Evidence",
+  "direction": "A sober professional data portfolio with one focused project at a time.",
+  "colors": {
+    "paper": "#f5f2ea",
+    "surface": "#fffefb",
+    "ink": "#112b2d",
+    "inkSoft": "#52615f",
+    "rule": "#c9cec6",
+    "accent": "#9b7438",
+    "night": "#0d292b"
+  },
+  "typography": {
+    "display": "Manrope",
+    "body": "Source Sans 3"
+  },
+  "components": [
+    "opaque portrait navigation",
+    "editorial hero with LinkedIn CTA",
+    "experience evidence bar",
+    "ruled core skills",
+    "top project selector",
+    "large 16:9 evidence player",
+    "full-to-empty autoplay progress",
+    "portrait-led About"
+  ],
+  "motion": {
+    "imageSlotMs": 4000,
+    "projectSlots": 4,
+    "pauseOn": ["hover", "focus", "hidden", "offscreen"],
+    "reducedMotion": "manual controls only"
+  }
+}
