@@ -720,6 +720,18 @@
     var year = document.getElementById("year");
     if (year) year.textContent = new Date().getFullYear();
 
+    var backToTop = document.getElementById("back-to-top");
+    if (backToTop) {
+      backToTop.addEventListener("click", function (event) {
+        event.preventDefault();
+        window.scrollTo({
+          top: 0,
+          left: 0,
+          behavior: prefersReducedMotion() ? "auto" : "smooth",
+        });
+      });
+    }
+
     document.querySelectorAll(".lang-btn").forEach(function (button) {
       button.addEventListener("click", function () { setLanguage(button.getAttribute("data-lang")); });
     });

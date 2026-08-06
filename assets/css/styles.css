@@ -366,6 +366,7 @@ ol { margin: 0; padding: 0; }
   min-height: min(800px, calc(100svh - 78px));
   display: grid;
   grid-template-columns: minmax(0, 8fr) minmax(280px, 4fr);
+  align-content: start;
   align-items: end;
   gap: clamp(56px, 9vw, 132px);
   padding-top: clamp(80px, 11vw, 148px);
