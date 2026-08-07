@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title description">
+  <title id="title">Troque esta imagem</title>
+  <desc id="description">Espaço reservado para a primeira imagem do projeto.</desc>
+  <rect width="1600" height="900" fill="#f5f2ea" />
+  <rect x="90" y="90" width="1420" height="720" rx="24" fill="none" stroke="#c9cec6" stroke-width="4" stroke-dasharray="16 16" />
+  <text x="800" y="420" fill="#112b2d" font-family="Arial, sans-serif" font-size="64" font-weight="700" text-anchor="middle">TROQUE ESTA IMAGEM</text>
+  <text x="800" y="500" fill="#52615f" font-family="Arial, sans-serif" font-size="34" text-anchor="middle">Coloque aqui a primeira imagem do projeto</text>
+</svg>

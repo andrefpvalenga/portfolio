@@ -1,0 +1,99 @@
+{
+  "_leiaAntesDeEditar": "Altere somente textos, nomes de imagens e o endereço do projeto. O guia completo está no arquivo LEIA-ME.md da pasta content.",
+  "endereço público": "https://github.com/andrefpvalenga/crop-yield-project",
+  "imagens": [
+    {
+      "nome do arquivo": "cover.png",
+      "descrição": {
+        "português": "Produtividade real versus prevista nos modelos Decision Tree, Random Forest e Gradient Boosting.",
+        "inglês": "Actual versus predicted yield for Decision Tree, Random Forest and Gradient Boosting models.",
+        "espanhol": "Rendimiento real frente al previsto en los modelos Decision Tree, Random Forest y Gradient Boosting."
+      }
+    },
+    {
+      "nome do arquivo": "code1.png",
+      "descrição": {
+        "português": "Saída da avaliação em Python comparando métricas de regressão dos três modelos.",
+        "inglês": "Python evaluation output comparing regression metrics across the three models.",
+        "espanhol": "Salida de evaluación en Python comparando métricas de regresión de los tres modelos."
+      }
+    },
+    {
+      "nome do arquivo": "graph1.png",
+      "descrição": {
+        "português": "Gráficos exploratórios relacionando produção, temperatura, uso de pesticidas e chuva anual.",
+        "inglês": "Exploratory plots relating production to temperature, pesticide use and annual rainfall.",
+        "espanhol": "Gráficos exploratorios relacionando producción, temperatura, pesticidas y lluvia anual."
+      }
+    },
+    {
+      "nome do arquivo": "confusion_matrix.png",
+      "descrição": {
+        "português": "Matriz de correlação entre produtividade, chuva, uso de pesticidas e temperatura.",
+        "inglês": "Correlation matrix for yield, rainfall, pesticide use and temperature variables.",
+        "espanhol": "Matriz de correlación entre rendimiento, lluvia, pesticidas y temperatura."
+      }
+    },
+    {
+      "nome do arquivo": "feature_importance.png",
+      "descrição": {
+        "português": "Comparação da importância das variáveis nos modelos Decision Tree e Gradient Boosting.",
+        "inglês": "Feature-importance comparison for Decision Tree and Gradient Boosting.",
+        "espanhol": "Comparación de importancia de variables en Decision Tree y Gradient Boosting."
+      }
+    }
+  ],
+  "textos": {
+    "português": {
+      "título": "Previsão de Safra — Machine Learning",
+      "resumo": "Um projeto de ML ponta a ponta prevendo produtividade agrícola — meu passo rumo à Ciência de Dados.",
+      "problema": "A produtividade de uma safra depende de um emaranhado de fatores climáticos e agrícolas. O objetivo era um modelo-base capaz de apoiar decisões agrícolas reais (planejamento, compras, risco) a partir de dados ambientais.",
+      "como foi feito": "Conduzi um fluxo completo de Ciência de Dados sobre dados no estilo FAO / Banco Mundial: EDA, pré-processamento e treino de três modelos de regressão — Árvore de Decisão, Random Forest e Gradient Boosting — comparando-os com validação cruzada e interpretando a importância das variáveis.",
+      "ferramentas": "Python · pandas · scikit-learn · Jupyter",
+      "resultados": [
+        "Random Forest venceu o baseline — maior R², menor RMSE e MSE.",
+        "A validação cruzada confirmou a consistência do Random Forest entre os folds.",
+        "A importância das variáveis mostrou que o tipo de cultura domina a previsão."
+      ],
+      "aprendizados": [
+        "Ensembles de árvores lidam melhor com a natureza não linear e cheia de outliers desses dados.",
+        "Padrões categóricos (tipo de cultura) pesam mais que variáveis climáticas brutas aqui.",
+        "Um baseline sólido é a base para tuning e modelos avançados (XGBoost, etc.)."
+      ]
+    },
+    "inglês": {
+      "título": "Crop Yield Prediction — Machine Learning",
+      "resumo": "An end-to-end ML project predicting agricultural yield — my step toward Data Science.",
+      "problema": "Crop yield depends on a tangle of climate and agricultural factors. The goal was a baseline model that could support real agricultural decisions (planning, procurement, risk) from environmental data.",
+      "como foi feito": "I ran a full Data Science workflow on FAO / World Bank-style data: EDA, preprocessing, and training three regression models — Decision Tree, Random Forest and Gradient Boosting — then compared them with cross-validation and interpreted feature importance.",
+      "ferramentas": "Python · pandas · scikit-learn · Jupyter",
+      "resultados": [
+        "Random Forest won the baseline — highest R², lowest RMSE and MSE.",
+        "Cross-validation confirmed Random Forest's consistency across folds.",
+        "Feature importance showed crop type dominates the prediction."
+      ],
+      "aprendizados": [
+        "Tree ensembles handle the non-linear, outlier-heavy nature of this data best.",
+        "Categorical patterns (crop type) outweigh raw climate variables here.",
+        "A solid baseline is the launchpad for tuning and advanced models (XGBoost, etc.)."
+      ]
+    },
+    "espanhol": {
+      "título": "Predicción de Cosecha — Machine Learning",
+      "resumo": "Un proyecto de ML integral que predice el rendimiento agrícola — mi paso hacia la Ciencia de Datos.",
+      "problema": "El rendimiento de un cultivo depende de una maraña de factores climáticos y agrícolas. El objetivo era un modelo base capaz de apoyar decisiones agrícolas reales (planificación, compras, riesgo) a partir de datos ambientales.",
+      "como foi feito": "Realicé un flujo completo de Ciencia de Datos sobre datos estilo FAO / Banco Mundial: EDA, preprocesamiento y entrenamiento de tres modelos de regresión — Árbol de Decisión, Random Forest y Gradient Boosting — comparándolos con validación cruzada e interpretando la importancia de las variables.",
+      "ferramentas": "Python · pandas · scikit-learn · Jupyter",
+      "resultados": [
+        "Random Forest ganó el baseline — mayor R², menor RMSE y MSE.",
+        "La validación cruzada confirmó la consistencia de Random Forest entre folds.",
+        "La importancia de variables mostró que el tipo de cultivo domina la predicción."
+      ],
+      "aprendizados": [
+        "Los ensembles de árboles manejan mejor la naturaleza no lineal y con outliers de estos datos.",
+        "Los patrones categóricos (tipo de cultivo) pesan más que las variables climáticas crudas aquí.",
+        "Un baseline sólido es la base para el tuning y modelos avanzados (XGBoost, etc.)."
+      ]
+    }
+  }
+}

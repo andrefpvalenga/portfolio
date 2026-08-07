@@ -1,0 +1,91 @@
+{
+  "_leiaAntesDeEditar": "Altere somente textos, nomes de imagens e o endereço do projeto. O guia completo está no arquivo LEIA-ME.md da pasta content.",
+  "endereço público": "",
+  "imagens": [
+    {
+      "nome do arquivo": "cover.png",
+      "descrição": {
+        "português": "Dashboard da força de trabalho com headcount, absenteísmo, turnover e movimentações mensais.",
+        "inglês": "Workforce dashboard with headcount, absenteeism, turnover and monthly movements.",
+        "espanhol": "Dashboard de la plantilla con headcount, ausentismo, rotación y movimientos mensuales."
+      }
+    },
+    {
+      "nome do arquivo": "slide1.png",
+      "descrição": {
+        "português": "Motivos de desligamento mostrando que 84,62% das saídas foram voluntárias.",
+        "inglês": "Departure reasons showing 84.62% of exits were voluntary.",
+        "espanhol": "Motivos de salida mostrando que el 84,62% de las bajas fueron voluntarias."
+      }
+    },
+    {
+      "nome do arquivo": "slide2.png",
+      "descrição": {
+        "português": "Linha do tempo do turnover destacando o pico da fusão de 2011 e a estabilização após 2016.",
+        "inglês": "Turnover timeline highlighting the 2011 merger spike and stabilization after 2016.",
+        "espanhol": "Línea de tiempo de rotación destacando el pico de la fusión de 2011 y la estabilización después de 2016."
+      }
+    },
+    {
+      "nome do arquivo": "slide3.png",
+      "descrição": {
+        "português": "Contratações, movimentações e saldo anual da força de trabalho de 2006 a 2018.",
+        "inglês": "Annual hires, movements and workforce balance from 2006 to 2018.",
+        "espanhol": "Contrataciones, movimientos y balance anual de la plantilla de 2006 a 2018."
+      }
+    }
+  ],
+  "textos": {
+    "português": {
+      "título": "People Analytics — Turnover de RH & Força de Trabalho",
+      "resumo": "Um dashboard de RH multipágina que explica por que as pessoas saem — e quando isso parou de acontecer.",
+      "problema": "Os dados de RH estavam espalhados em anos de registros, sem uma visão clara de turnover, absenteísmo ou do que motivava as saídas. A liderança precisava entender a estabilidade da equipe ao longo do tempo, não apenas o headcount atual.",
+      "como foi feito": "Modelei os dados históricos da força de trabalho e desenhei um dashboard narrativo: KPIs de destaque (movimentações, headcount ativo, absenteísmo, turnover) no topo, uma linha do tempo de turnover e a quebra por motivo de desligamento no meio, e métricas mensais de contratações/movimentações na base — feito para ser lido como uma história, não como uma parede de gráficos.",
+      "ferramentas": "Power BI · Power Query · DAX · Modelagem de dados",
+      "resultados": [
+        "Expôs um pico de turnover chegando a 186,8% provocado por uma fusão em 2011.",
+        "Revelou que mais de 84% de todas as saídas foram voluntárias.",
+        "Mostrou o turnover se estabilizando perto de zero após 2016 — prova de uma equipe mais estável."
+      ],
+      "aprendizados": [
+        "Eventos estruturais (fusões) impactam a retenção muito mais do que o ruído mês a mês.",
+        "Separar saídas voluntárias e involuntárias muda toda a conversa sobre retenção.",
+        "Uma linha do tempo clara permite agir sobre tendências em vez de reagir a meses isolados."
+      ]
+    },
+    "inglês": {
+      "título": "People Analytics — HR Turnover & Workforce",
+      "resumo": "A multi-page HR dashboard that explains why people leave — and when it stopped happening.",
+      "problema": "HR data was scattered across years of records with no clear view of turnover, absenteeism or what was driving departures. Leadership needed to understand workforce stability over time, not just headcount today.",
+      "como foi feito": "I modeled the historical workforce data and designed a narrative dashboard: headline KPIs (movements, active headcount, absenteeism, turnover) on top, a turnover timeline and a separation-reasons breakdown in the middle, and monthly hire/movement metrics at the bottom — built to be read like a story, not just a wall of charts.",
+      "ferramentas": "Power BI · Power Query · DAX · Data modeling",
+      "resultados": [
+        "Exposed a turnover spike reaching 186.8% triggered by a 2011 merger.",
+        "Revealed that more than 84% of all departures were voluntary.",
+        "Showed turnover stabilizing close to zero after 2016 — proof of a more stable workforce."
+      ],
+      "aprendizados": [
+        "Structural events (mergers) impact retention far more than month-to-month noise.",
+        "Separating voluntary vs. involuntary exits changes the whole retention conversation.",
+        "A clear timeline lets leaders act on trends instead of reacting to single months."
+      ]
+    },
+    "espanhol": {
+      "título": "People Analytics — Rotación de RR. HH. y Plantilla",
+      "resumo": "Un dashboard de RR. HH. multipágina que explica por qué se va la gente — y cuándo dejó de pasar.",
+      "problema": "Los datos de RR. HH. estaban dispersos en años de registros, sin una visión clara de rotación, ausentismo ni de qué impulsaba las salidas. La dirección necesitaba entender la estabilidad del equipo a lo largo del tiempo, no solo la plantilla actual.",
+      "como foi feito": "Modelé los datos históricos de la plantilla y diseñé un dashboard narrativo: KPIs destacados (movimientos, plantilla activa, ausentismo, rotación) arriba, una línea de tiempo de rotación y el desglose por motivo de salida en el centro, y métricas mensuales de contrataciones/movimientos abajo — pensado para leerse como una historia, no como un muro de gráficos.",
+      "ferramentas": "Power BI · Power Query · DAX · Modelado de datos",
+      "resultados": [
+        "Expuso un pico de rotación de 186,8% provocado por una fusión en 2011.",
+        "Reveló que más del 84% de todas las salidas fueron voluntarias.",
+        "Mostró la rotación estabilizándose cerca de cero después de 2016 — prueba de un equipo más estable."
+      ],
+      "aprendizados": [
+        "Los eventos estructurales (fusiones) impactan la retención mucho más que el ruido mes a mes.",
+        "Separar salidas voluntarias e involuntarias cambia toda la conversación sobre retención.",
+        "Una línea de tiempo clara permite actuar sobre tendencias en lugar de reaccionar a meses sueltos."
+      ]
+    }
+  }
+}

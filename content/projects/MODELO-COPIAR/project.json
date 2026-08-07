@@ -1,0 +1,78 @@
+{
+  "_leiaPrimeiro": [
+    "Esta é a ficha que será exibida no portfólio.",
+    "Troque todos os trechos escritos TROQUE AQUI.",
+    "Não mude os nomes que aparecem antes dos dois-pontos.",
+    "Mantenha as aspas, vírgulas, chaves e colchetes nos mesmos lugares.",
+    "Preencha português, inglês e espanhol antes de colocar a pasta na lista de projetos."
+  ],
+  "_ajuda": {
+    "endereço público": "Cole o endereço público do projeto. Se não houver, deixe vazio.",
+    "imagens": "A primeira imagem será mostrada primeiro. Repita o bloco para incluir outras imagens.",
+    "descrição": "Explique o que a imagem mostra. Essa frase aparece abaixo dela e também ajuda quem usa leitor de tela.",
+    "resumo": "Escreva uma apresentação curta, de preferência em uma ou duas frases.",
+    "problema": "Conte qual dificuldade precisava ser resolvida.",
+    "como foi feito": "Conte de forma simples o que você fez para chegar à solução.",
+    "ferramentas": "Liste as ferramentas separadas pelo sinal ·.",
+    "resultados": "Use uma linha para cada resultado importante.",
+    "aprendizados": "Use uma linha para cada conclusão ou aprendizado importante."
+  },
+  "endereço público": "",
+  "imagens": [
+    {
+      "nome do arquivo": "TROQUE-ESTA-IMAGEM.svg",
+      "descrição": {
+        "português": "TROQUE AQUI: descreva o que esta imagem mostra.",
+        "inglês": "REPLACE HERE: describe what this image shows.",
+        "espanhol": "CAMBIE AQUÍ: describa lo que muestra esta imagen."
+      }
+    }
+  ],
+  "textos": {
+    "português": {
+      "título": "TROQUE AQUI: nome do projeto",
+      "resumo": "TROQUE AQUI: apresentação curta do projeto.",
+      "problema": "TROQUE AQUI: qual problema precisava ser resolvido?",
+      "como foi feito": "TROQUE AQUI: o que você fez para resolver o problema?",
+      "ferramentas": "TROQUE AQUI: Power BI · SQL · Excel",
+      "resultados": [
+        "TROQUE AQUI: primeiro resultado importante.",
+        "TROQUE AQUI: segundo resultado importante."
+      ],
+      "aprendizados": [
+        "TROQUE AQUI: primeiro aprendizado importante.",
+        "TROQUE AQUI: segundo aprendizado importante."
+      ]
+    },
+    "inglês": {
+      "título": "REPLACE HERE: project name",
+      "resumo": "REPLACE HERE: short project introduction.",
+      "problema": "REPLACE HERE: what problem needed to be solved?",
+      "como foi feito": "REPLACE HERE: what did you do to solve the problem?",
+      "ferramentas": "REPLACE HERE: Power BI · SQL · Excel",
+      "resultados": [
+        "REPLACE HERE: first important result.",
+        "REPLACE HERE: second important result."
+      ],
+      "aprendizados": [
+        "REPLACE HERE: first important lesson.",
+        "REPLACE HERE: second important lesson."
+      ]
+    },
+    "espanhol": {
+      "título": "CAMBIE AQUÍ: nombre del proyecto",
+      "resumo": "CAMBIE AQUÍ: breve presentación del proyecto.",
+      "problema": "CAMBIE AQUÍ: ¿qué problema debía resolverse?",
+      "como foi feito": "CAMBIE AQUÍ: ¿qué hizo para resolver el problema?",
+      "ferramentas": "CAMBIE AQUÍ: Power BI · SQL · Excel",
+      "resultados": [
+        "CAMBIE AQUÍ: primer resultado importante.",
+        "CAMBIE AQUÍ: segundo resultado importante."
+      ],
+      "aprendizados": [
+        "CAMBIE AQUÍ: primer aprendizaje importante.",
+        "CAMBIE AQUÍ: segundo aprendizaje importante."
+      ]
+    }
+  }
+}

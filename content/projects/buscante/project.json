@@ -1,0 +1,83 @@
+{
+  "_leiaAntesDeEditar": "Altere somente textos, nomes de imagens e o endereço do projeto. O guia completo está no arquivo LEIA-ME.md da pasta content.",
+  "endereço público": "",
+  "imagens": [
+    {
+      "nome do arquivo": "cover.png",
+      "descrição": {
+        "português": "Visão do e-commerce com tendência de acessos, assinaturas inativas e valor por título.",
+        "inglês": "E-commerce overview with access trends, inactive subscriptions and value by book title.",
+        "espanhol": "Vista del e-commerce con tendencia de accesos, suscripciones inactivas y valor por título."
+      }
+    },
+    {
+      "nome do arquivo": "vendas.png",
+      "descrição": {
+        "português": "Dashboard semanal comparando progresso, meta e tendência de vendas.",
+        "inglês": "Weekly sales dashboard comparing progress, target and sales trend.",
+        "espanhol": "Dashboard semanal comparando progreso, meta y tendencia de ventas."
+      }
+    },
+    {
+      "nome do arquivo": "clientes.png",
+      "descrição": {
+        "português": "Análise de clientes por profissão, idade, canal de contato e localização.",
+        "inglês": "Customer analysis by profession, age, preferred contact channel and geography.",
+        "espanhol": "Análisis de clientes por profesión, edad, canal de contacto y ubicación."
+      }
+    }
+  ],
+  "textos": {
+    "português": {
+      "título": "Buscante — E-commerce & Analytics de Clientes",
+      "resumo": "Um dashboard em Power BI que lê as vendas de uma livraria online e revela quem são, de fato, seus clientes.",
+      "problema": "Uma plataforma de e-commerce tinha dados de vendas e de clientes, mas pouco entendimento sobre padrões sazonais de acesso, quem eram seus compradores ou como os diferentes canais de contato se comportavam.",
+      "como foi feito": "Construí um dashboard multipágina em Power BI cobrindo desempenho de vendas, segmentação de clientes e comportamento regional, com filtros interativos por cidade e visões conectando tendências de acesso aos perfis de clientes e aos títulos de produtos.",
+      "ferramentas": "Power BI · Power Query · DAX · Segmentação",
+      "resultados": [
+        "Mostrou a média mensal de acessos subindo de 83 para 95 ao longo do ano.",
+        "Identificou desenvolvedores como a profissão mais frequente entre os clientes.",
+        "Descobriu que usuários de WhatsApp eram bem mais jovens que os de chamada telefônica (21,8 vs 53,3 anos em média)."
+      ],
+      "aprendizados": [
+        "A escolha do canal é um forte indicador da idade do cliente — útil para segmentação.",
+        "Conhecer a profissão dominante refina decisões de produto e de conteúdo.",
+        "Tendências sazonais de acesso ajudam a planejar campanhas e estoque antes da demanda."
+      ]
+    },
+    "inglês": {
+      "título": "Buscante — E-commerce & Customer Analytics",
+      "resumo": "A Power BI dashboard that reads an online bookstore's sales and reveals who its customers really are.",
+      "problema": "An e-commerce platform had sales and customer data but little understanding of seasonal access patterns, who its buyers were, or how different contact channels behaved.",
+      "como foi feito": "I built a multi-page Power BI dashboard covering sales performance, customer segmentation and regional behavior, with interactive filters by city, and views connecting access trends to customer profiles and product titles.",
+      "ferramentas": "Power BI · Power Query · DAX · Segmentation",
+      "resultados": [
+        "Showed monthly access average rising from 83 to 95 across the year.",
+        "Identified developers as the most frequent customer profession.",
+        "Found WhatsApp users were far younger than phone-call users (21.8 vs 53.3 avg age)."
+      ],
+      "aprendizados": [
+        "Channel choice is a strong proxy for customer age — useful for targeting.",
+        "Knowing the dominant profession sharpens product and content decisions.",
+        "Seasonal access trends help plan campaigns and stock ahead of demand."
+      ]
+    },
+    "espanhol": {
+      "título": "Buscante — E-commerce y Analítica de Clientes",
+      "resumo": "Un dashboard en Power BI que lee las ventas de una librería online y revela quiénes son realmente sus clientes.",
+      "problema": "Una plataforma de e-commerce tenía datos de ventas y de clientes, pero poco entendimiento sobre patrones estacionales de acceso, quiénes eran sus compradores o cómo se comportaban los distintos canales de contacto.",
+      "como foi feito": "Construí un dashboard multipágina en Power BI que cubre el rendimiento de ventas, la segmentación de clientes y el comportamiento regional, con filtros interactivos por ciudad y vistas que conectan las tendencias de acceso con los perfiles de clientes y los títulos de productos.",
+      "ferramentas": "Power BI · Power Query · DAX · Segmentación",
+      "resultados": [
+        "Mostró el promedio mensual de accesos subiendo de 83 a 95 a lo largo del año.",
+        "Identificó a los desarrolladores como la profesión más frecuente entre los clientes.",
+        "Descubrió que los usuarios de WhatsApp eran mucho más jóvenes que los de llamada telefónica (21,8 vs 53,3 de edad media)."
+      ],
+      "aprendizados": [
+        "La elección del canal es un fuerte indicador de la edad del cliente — útil para segmentar.",
+        "Conocer la profesión dominante afina las decisiones de producto y contenido.",
+        "Las tendencias estacionales de acceso ayudan a planificar campañas y stock antes de la demanda."
+      ]
+    }
+  }
+}
